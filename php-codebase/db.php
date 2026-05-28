@@ -4,11 +4,11 @@
  * Uses standard PDO for secure and fast SQL queries.
  */
 
-define('DB_HOST', 'localhost');
-define('DB_PORT', '3306'); // Default MySQL/MariaDB port for XAMPP is 3306
+define('DB_HOST', 'mysql-2628de66-shoes-website.l.aivencloud.com');
+define('DB_PORT', '12196');
 define('DB_NAME', 'stridehub');
-define('DB_USER', 'root'); // Default XAMPP username is root
-define('DB_PASS', ''); // Default XAMPP password is an empty string
+define('DB_USER', 'avnadmin');
+define('DB_PASS', 'your_aiven_password_here');
 
 function getDBConnection() {
     static $conn = null;
