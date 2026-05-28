@@ -1,0 +1,6 @@
+{
+  "name": "StrideHub",
+  "description": "A complete, modern shoe e-commerce website with responsive design, admin dashboard, user authentication, catalog filters, cart, checkout, and order history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

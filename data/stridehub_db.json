@@ -1,0 +1,512 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "full_name": "StrideHub Admin",
+      "email": "admin@stridehub.com",
+      "password": "sha256_password",
+      "phone": "1-800-STRIDE",
+      "role": "admin",
+      "status": "active",
+      "created_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "full_name": "Jacob Sneakerhead",
+      "email": "customer@stridehub.com",
+      "password": "sha256_password",
+      "phone": "+44 7700 900077",
+      "role": "customer",
+      "status": "active",
+      "created_at": "2026-02-15T00:00:00.000Z"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Nike",
+      "logo": "nike_logo"
+    },
+    {
+      "id": 2,
+      "name": "Adidas",
+      "logo": "adidas_logo"
+    },
+    {
+      "id": 3,
+      "name": "Puma",
+      "logo": "puma_logo"
+    },
+    {
+      "id": 4,
+      "name": "New Balance",
+      "logo": "nb_logo"
+    },
+    {
+      "id": 5,
+      "name": "Jordan",
+      "logo": "jordan_logo"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Running"
+    },
+    {
+      "id": 2,
+      "name": "Basketball"
+    },
+    {
+      "id": 3,
+      "name": "Sneakers"
+    },
+    {
+      "id": 4,
+      "name": "Casual"
+    },
+    {
+      "id": 5,
+      "name": "Boots"
+    }
+  ],
+  "shoes": [
+    {
+      "id": 1,
+      "name": "Velocity Aether Max",
+      "brand_id": 1,
+      "category_id": 1,
+      "description": "Engineered for explosive movement. The StrideHub exclusive release features carbon-weave technology and ultralight responsive foam.",
+      "price": 189,
+      "discount_price": 159,
+      "gender": "unisex",
+      "color": "Orange Pulse",
+      "material": "Carbon Mesh",
+      "stock": 35,
+      "rating_average": 4.85,
+      "featured": true,
+      "is_active": true,
+      "created_at": "2026-05-10T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Sonic Rush G-2",
+      "brand_id": 2,
+      "category_id": 1,
+      "description": "Ultralight aerated running shoes designed with hyper-spring kinetics for optimal turf and track response.",
+      "price": 145,
+      "discount_price": null,
+      "gender": "men",
+      "color": "Cyber Gray/Volt",
+      "material": "Recycled Knit",
+      "stock": 42,
+      "rating_average": 4.6,
+      "featured": true,
+      "is_active": true,
+      "created_at": "2026-05-15T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Shadow Pulse 1.0",
+      "brand_id": 5,
+      "category_id": 2,
+      "description": "Premium floor traction basketball sneaker with micro-grid ankle supports and heavy-duty air cushion pods.",
+      "price": 210,
+      "discount_price": 185,
+      "gender": "men",
+      "color": "Stealth Black",
+      "material": "Synthetic Leather",
+      "stock": 18,
+      "rating_average": 4.9,
+      "featured": true,
+      "is_active": true,
+      "created_at": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Lunar Drift High-Top",
+      "brand_id": 5,
+      "category_id": 2,
+      "description": "Inspired by lunar dust dynamics. Features a premium leather ankle harness, breathable mesh panels, and specialized bouncy mid-soles.",
+      "price": 165,
+      "discount_price": null,
+      "gender": "women",
+      "color": "Star Dust Pink",
+      "material": "Nylon & Suede",
+      "stock": 24,
+      "rating_average": 4.7,
+      "featured": true,
+      "is_active": true,
+      "created_at": "2026-05-20T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Carbon Elite X",
+      "brand_id": 4,
+      "category_id": 1,
+      "description": "The pinnacle of marathon racing execution. Double-curved carbon plate and nitrogen-infused foam cushion for endless propulsion.",
+      "price": 299,
+      "discount_price": 260,
+      "gender": "unisex",
+      "color": "Luminous Glow",
+      "material": "Carbon Matrix Mono-Mesh",
+      "stock": 12,
+      "rating_average": 4.95,
+      "featured": true,
+      "is_active": true,
+      "created_at": "2026-05-22T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Urban Street Glide",
+      "brand_id": 3,
+      "category_id": 3,
+      "description": "Ultra-minimal skate-inspired footwear with padded low collars, rawvulcanized cup soles, and orthotic inserts.",
+      "price": 95,
+      "discount_price": null,
+      "gender": "unisex",
+      "color": "Chalk White/Tan",
+      "material": "Canvas",
+      "stock": 50,
+      "rating_average": 4.4,
+      "featured": false,
+      "is_active": true,
+      "created_at": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "name": "Terra Shield All-Weather",
+      "brand_id": 4,
+      "category_id": 5,
+      "description": "Sub-zero outdoor boots featuring triple seam-sealed membranes, thermal dynamic fleece linings, and heavy winter-grade lug soles.",
+      "price": 185,
+      "discount_price": 165,
+      "gender": "men",
+      "color": "Forest Moss",
+      "material": "Ripstop & Leather",
+      "stock": 16,
+      "rating_average": 4.65,
+      "featured": false,
+      "is_active": true,
+      "created_at": "2026-04-20T00:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "name": "Sleek Runner Neo",
+      "brand_id": 2,
+      "category_id": 3,
+      "description": "Modern streamlined slip-on trainer with form-fitting stretch laces, memory cushioned insoles, and lateral motion supports.",
+      "price": 110,
+      "discount_price": 89,
+      "gender": "women",
+      "color": "Platinum Lilac",
+      "material": "Tech Mesh",
+      "stock": 28,
+      "rating_average": 4.5,
+      "featured": false,
+      "is_active": true,
+      "created_at": "2026-05-02T00:00:00.000Z"
+    }
+  ],
+  "shoe_sizes": [
+    {
+      "id": 1,
+      "shoe_id": 1,
+      "size": "39",
+      "stock_quantity": 5
+    },
+    {
+      "id": 2,
+      "shoe_id": 1,
+      "size": "40",
+      "stock_quantity": 8
+    },
+    {
+      "id": 3,
+      "shoe_id": 1,
+      "size": "41",
+      "stock_quantity": 12
+    },
+    {
+      "id": 4,
+      "shoe_id": 1,
+      "size": "42",
+      "stock_quantity": 10
+    },
+    {
+      "id": 5,
+      "shoe_id": 1,
+      "size": "43",
+      "stock_quantity": 0
+    },
+    {
+      "id": 6,
+      "shoe_id": 2,
+      "size": "40",
+      "stock_quantity": 15
+    },
+    {
+      "id": 7,
+      "shoe_id": 2,
+      "size": "41",
+      "stock_quantity": 12
+    },
+    {
+      "id": 8,
+      "shoe_id": 2,
+      "size": "42",
+      "stock_quantity": 10
+    },
+    {
+      "id": 9,
+      "shoe_id": 2,
+      "size": "43",
+      "stock_quantity": 5
+    },
+    {
+      "id": 10,
+      "shoe_id": 3,
+      "size": "41",
+      "stock_quantity": 4
+    },
+    {
+      "id": 11,
+      "shoe_id": 3,
+      "size": "42",
+      "stock_quantity": 6
+    },
+    {
+      "id": 12,
+      "shoe_id": 3,
+      "size": "43",
+      "stock_quantity": 8
+    },
+    {
+      "id": 13,
+      "shoe_id": 4,
+      "size": "37",
+      "stock_quantity": 8
+    },
+    {
+      "id": 14,
+      "shoe_id": 4,
+      "size": "38",
+      "stock_quantity": 10
+    },
+    {
+      "id": 15,
+      "shoe_id": 4,
+      "size": "39",
+      "stock_quantity": 6
+    },
+    {
+      "id": 16,
+      "shoe_id": 5,
+      "size": "41",
+      "stock_quantity": 3
+    },
+    {
+      "id": 17,
+      "shoe_id": 5,
+      "size": "42",
+      "stock_quantity": 5
+    },
+    {
+      "id": 18,
+      "shoe_id": 5,
+      "size": "43",
+      "stock_quantity": 4
+    },
+    {
+      "id": 19,
+      "shoe_id": 6,
+      "size": "40",
+      "stock_quantity": 15
+    },
+    {
+      "id": 20,
+      "shoe_id": 6,
+      "size": "41",
+      "stock_quantity": 20
+    },
+    {
+      "id": 21,
+      "shoe_id": 6,
+      "size": "42",
+      "stock_quantity": 15
+    },
+    {
+      "id": 22,
+      "shoe_id": 7,
+      "size": "42",
+      "stock_quantity": 8
+    },
+    {
+      "id": 23,
+      "shoe_id": 7,
+      "size": "43",
+      "stock_quantity": 8
+    },
+    {
+      "id": 24,
+      "shoe_id": 8,
+      "size": "38",
+      "stock_quantity": 10
+    },
+    {
+      "id": 25,
+      "shoe_id": 8,
+      "size": "39",
+      "stock_quantity": 12
+    },
+    {
+      "id": 26,
+      "shoe_id": 8,
+      "size": "40",
+      "stock_quantity": 6
+    }
+  ],
+  "shoe_images": [
+    {
+      "id": 1,
+      "shoe_id": 1,
+      "image_url": "orange_aether_primary",
+      "is_primary": true
+    },
+    {
+      "id": 2,
+      "shoe_id": 1,
+      "image_url": "orange_aether_alt1",
+      "is_primary": false
+    },
+    {
+      "id": 3,
+      "shoe_id": 1,
+      "image_url": "orange_aether_alt2",
+      "is_primary": false
+    },
+    {
+      "id": 4,
+      "shoe_id": 2,
+      "image_url": "cyber_volt_primary",
+      "is_primary": true
+    },
+    {
+      "id": 5,
+      "shoe_id": 3,
+      "image_url": "stealth_black_primary",
+      "is_primary": true
+    },
+    {
+      "id": 6,
+      "shoe_id": 4,
+      "image_url": "lunar_pink_primary",
+      "is_primary": true
+    },
+    {
+      "id": 7,
+      "shoe_id": 5,
+      "image_url": "glow_carbon_primary",
+      "is_primary": true
+    },
+    {
+      "id": 8,
+      "shoe_id": 6,
+      "image_url": "glide_white_primary",
+      "is_primary": true
+    },
+    {
+      "id": 9,
+      "shoe_id": 7,
+      "image_url": "terra_moss_primary",
+      "is_primary": true
+    },
+    {
+      "id": 10,
+      "shoe_id": 8,
+      "image_url": "neo_lilac_primary",
+      "is_primary": true
+    }
+  ],
+  "addresses": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "country": "United Kingdom",
+      "city": "London",
+      "address_line": "221B Baker St",
+      "postal_code": "NW1 6XE",
+      "is_default": true
+    }
+  ],
+  "cart": [],
+  "wishlist": [],
+  "coupons": [
+    {
+      "id": 1,
+      "code": "KICKS20",
+      "discount_percent": 20,
+      "expiration_date": "2027-12-31",
+      "active": true
+    },
+    {
+      "id": 2,
+      "code": "LAUNCH50",
+      "discount_percent": 50,
+      "expiration_date": "2027-06-30",
+      "active": true
+    }
+  ],
+  "orders": [
+    {
+      "id": 1001,
+      "user_id": 2,
+      "total_price": 159,
+      "shipping_price": 10,
+      "payment_method": "Card Payment",
+      "status": "delivered",
+      "shipping_address_id": 1,
+      "coupon_id": null,
+      "created_at": "2026-05-18T10:30:00.000Z"
+    }
+  ],
+  "order_items": [
+    {
+      "id": 1,
+      "order_id": 1001,
+      "shoe_id": 1,
+      "size_id": 2,
+      "quantity": 1,
+      "price": 159
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "order_id": 1001,
+      "amount": 169,
+      "payment_method": "Card Payment",
+      "payment_status": "completed",
+      "transaction_reference": "TXN-9988231",
+      "created_at": "2026-05-18T10:31:00.000Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "shoe_id": 1,
+      "rating": 5,
+      "comment": "Phenomenal grip and responsive step cushion! Feels futuristic and very premium.",
+      "created_at": "2026-05-20T00:00:00.000Z"
+    }
+  ],
+  "admin_logs": [
+    {
+      "id": 1,
+      "admin_id": 1,
+      "action": "Bootstrapped StrideHub premium footwear catalog.",
+      "created_at": "2026-05-27T12:00:00.000Z"
+    }
+  ]
+}
