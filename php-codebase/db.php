@@ -8,7 +8,7 @@ define('DB_HOST', 'mysql-2628de66-shoes-website.l.aivencloud.com');
 define('DB_PORT', '12196');
 define('DB_NAME', 'stridehub');
 define('DB_USER', 'avnadmin');
-define('DB_PASS', 'your_aiven_password_here');
+define('DB_PASS', 'AVNS_CkqJP70s48bHC_GQ6rI');
 
 function getDBConnection() {
     static $conn = null;
